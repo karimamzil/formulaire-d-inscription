@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+<body>
+ <h1> Bienvenue !</h1> 
+ <h2> Inscrivez-vous maintenant pour créer votre compte FUN</h2>  
+  <form action="" method="POST">
+      <fieldset>
+          <legend>Informations requises </legend>
+              <label for="email">Email</label>
+              <input type="text" name="email" >
+             <p><label for="mot de passe">Mot de passe</label>
+              <input type="password" name="mot de passe">Doit être composé d'au moins 8 caractères dont au moins une majuscule, une minuscule et un chiffe. </p>
+             <p> <label for="nom utilisateur">Nom d'utilisateur FUN </label>
+              <input type="text" name="nom utilisateur"> Sera visible dans toute discussion ou forum où vous participerez. </p>
+      </fieldset>
+      <fieldset>
+          <legend>Informations requises</legend>
+          <label for="sel"> haut niveau de formation atteint</label>
+              <select name="sel" id="sel">
+                  <option value="a">--</option>
+                  <option value="b">Doctorat</option>
+                  <option value="c">Master/Diplôme d'ingénieur</option>
+                  <option value="d">Licence</option>
+                  <option value="e">Licence Professionnelle</option>
+                  <option value="f">DUT/BTS</option>
+                  <option value="g">Baccaleuréat</option>
+                  <option value="h">Brevet des collèges </option>
+                  <option value="i">Aucun</option>
+                  <option value="j">Autre</option>
+              </select><br/>
+              <label for="tex">Adresse postale</label>
+              <textarea  id="tex" name="text"></textarea> <br/>
+              <input type="checkbox" name="but" value="true" aria-required="true"><label for="but">J'accepte les Conditions Générales d'Utilisation </label>
+      </fieldset>
+      <input type="submit" value="Inscrire">
+  </form>  
+  
+</body>
+</html>
